@@ -9,12 +9,17 @@
 	--transition: transform .75s cubic-bezier(.075, .5, 0, 1);
 }
 @font-face {
-	font-family: raleway_f;
+	font-family: sans-serif;
 	src: url(../fonts/raleway-regular.woff2);
 }
 
 @font-face {
-	font-family: raleway_f;
+	font-family:sans-serif;
 	src: url(../fonts/raleway-black.woff2);
 	font-weight: 900;
+}
+
+body{
+    background-color: #010101;
+    font-family:sans-serif;
 }
