@@ -22,4 +22,16 @@
 body{
     background-color: #010101;
     font-family:sans-serif;
+    line-height: 1.55;
+}
+
+.main_header{
+    position: absolute;
+}
+
+.main_header::after{
+    content: '';
+    position: absolute;
+    z-index: 100;
+    width: 100%;
 }
