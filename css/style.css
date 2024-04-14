@@ -96,7 +96,6 @@ body {
 	align-items: center;
 	position: relative;
 	text-align: center;
-	/* Update: */
 	top: -1px;
 	z-index: 10;
 }
