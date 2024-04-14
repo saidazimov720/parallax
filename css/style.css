@@ -46,4 +46,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.layers{
+    height: 100%;
+	width: 100%;
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	will-change: transform;
+	z-index: 2;
+	transition: var(--transition);
 }
