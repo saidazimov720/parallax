@@ -83,3 +83,9 @@ body{
 	color: var(--text);
 	text-shadow: 0 0 15px #9d822b;
 }
+
+.layers_title{
+    font-size: calc(var(--index)/1.175);
+    letter-spacing: calc(var(--index)/3.5);
+    margin-top: calc(var(--index)* -.75);
+}
