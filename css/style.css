@@ -37,4 +37,7 @@ body{
     height: calc(var(--index)*10);
     background-image:url(../img/ground.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: calc(var(--index)* -4.5);
 }
